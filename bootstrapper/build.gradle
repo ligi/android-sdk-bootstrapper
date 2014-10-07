@@ -14,8 +14,8 @@ android {
     buildToolsVersion "20.0"
 
     defaultConfig {
-        minSdkVersion 18
-        targetSdkVersion 19
+        minSdkVersion 9
+        targetSdkVersion 20
     }
 
     lintOptions {
@@ -25,7 +25,7 @@ android {
 }
 
 dependencies {
-    compile 'com.sensorberg.sdk:sensorberg-sdk:0.7.0@aar'
+    compile 'com.sensorberg.sdk:sensorberg-sdk:0.7.1-SNAPSHOT@aar'
 }
 
 task sourcesJar(type: Jar) {
